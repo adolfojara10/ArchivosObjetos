@@ -20,7 +20,7 @@ public interface PersonaIdao {
     
     public void update(Persona p);
     
-    public void delete(Persona p);
+    public void delete(int id);
     
     public List<Persona> findAll();
     
